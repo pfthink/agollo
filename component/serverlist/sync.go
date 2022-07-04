@@ -77,8 +77,9 @@ func SyncServerIPList(appConfigFunc func() config.AppConfig) (map[string]*config
 
 	appConfig := appConfigFunc()
 	c := &env.ConnectConfig{
-		AppID:  appConfig.AppID,
-		Secret: appConfig.Secret,
+		AppID:     appConfig.AppID,
+		Secret:    appConfig.Secret,
+		AuthToken: appConfig.AuthToken,
 	}
 	if appConfigFunc().SyncServerTimeout > 0 {
 		duration, err := time.ParseDuration(strconv.Itoa(appConfigFunc().SyncServerTimeout) + "s")
