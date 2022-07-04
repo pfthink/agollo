@@ -126,13 +126,15 @@ func Request(requestURL string, connectionConfig *env.ConnectConfig, callBack *C
 			return nil, errors.New("generate connect Apollo request fail")
 		}
 
-		//增加header选项
+		//增加header选项  & support apollo_auth_token
 		httpAuth := extension.GetHTTPAuth()
 		if httpAuth != nil {
 			headers := httpAuth.HTTPHeaders(requestURL, connectionConfig.AppID, connectionConfig.Secret)
-			authToken := make([]string, 0, 1)
-			authToken = append(authToken, "helloapollo")
-			headers["apollo_auth_token"] = authToken
+			if len(connectionConfig.AuthToken) == 0 {
+				authToken := make([]string, 0, 1)
+				authToken = append(authToken, connectionConfig.AuthToken)
+				headers["apollo_auth_token"] = authToken
+			}
 			if len(headers) > 0 {
 				req.Header = headers
 			}
