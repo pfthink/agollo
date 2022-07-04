@@ -34,5 +34,5 @@ type ConnectConfig struct {
 	//密钥
 	Secret string
 	//token
-	authToken string
+	AuthToken string
 }
