@@ -131,7 +131,7 @@ func Request(requestURL string, connectionConfig *env.ConnectConfig, callBack *C
 		if httpAuth != nil {
 			headers := httpAuth.HTTPHeaders(requestURL, connectionConfig.AppID, connectionConfig.Secret)
 			authToken := make([]string, 0, 1)
-			authToken = append(authToken, connectionConfig.AuthToken)
+			authToken = append(authToken, "helloapollo")
 			headers["apollo_auth_token"] = authToken
 			if len(headers) > 0 {
 				req.Header = headers
