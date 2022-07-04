@@ -130,7 +130,7 @@ func Request(requestURL string, connectionConfig *env.ConnectConfig, callBack *C
 		httpAuth := extension.GetHTTPAuth()
 		if httpAuth != nil {
 			headers := httpAuth.HTTPHeaders(requestURL, connectionConfig.AppID, connectionConfig.Secret)
-			if len(connectionConfig.AuthToken) == 0 {
+			if len(connectionConfig.AuthToken) > 0 {
 				authToken := make([]string, 0, 1)
 				authToken = append(authToken, connectionConfig.AuthToken)
 				headers["apollo_auth_token"] = authToken
