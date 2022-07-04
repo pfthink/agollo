@@ -18,7 +18,7 @@
 package file
 
 import (
-	"github.com/apolloconfig/agollo/v4/env/config"
+	"github.com/pfthink/agollo/env/config"
 )
 
 //FileHandler 备份文件读写

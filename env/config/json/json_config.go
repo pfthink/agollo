@@ -23,8 +23,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/apolloconfig/agollo/v4/component/log"
-	"github.com/apolloconfig/agollo/v4/utils"
+	"github.com/pfthink/agollo/component/log"
+	"github.com/pfthink/agollo/utils"
 )
 
 //ConfigFile json文件读写

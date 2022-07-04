@@ -20,15 +20,15 @@ package component
 import (
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/component/log"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/protocol/http"
+	"github.com/pfthink/agollo/component/log"
+	"github.com/pfthink/agollo/env/server"
+	"github.com/pfthink/agollo/protocol/http"
 
-	"github.com/apolloconfig/agollo/v4/cluster/roundrobin"
-	"github.com/apolloconfig/agollo/v4/env"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/config/json"
-	"github.com/apolloconfig/agollo/v4/extension"
+	"github.com/pfthink/agollo/cluster/roundrobin"
+	"github.com/pfthink/agollo/env"
+	"github.com/pfthink/agollo/env/config"
+	"github.com/pfthink/agollo/env/config/json"
+	"github.com/pfthink/agollo/extension"
 	. "github.com/tevid/gohamcrest"
 
 	json2 "encoding/json"

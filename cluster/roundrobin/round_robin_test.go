@@ -20,12 +20,12 @@ package roundrobin
 import (
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/component/serverlist"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/protocol/http"
+	"github.com/pfthink/agollo/component/serverlist"
+	"github.com/pfthink/agollo/env/config"
+	"github.com/pfthink/agollo/env/server"
+	"github.com/pfthink/agollo/protocol/http"
 
-	"github.com/apolloconfig/agollo/v4/env"
+	"github.com/pfthink/agollo/env"
 	. "github.com/tevid/gohamcrest"
 )
 

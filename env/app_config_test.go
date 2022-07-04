@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/env/config"
-	jsonConfig "github.com/apolloconfig/agollo/v4/env/config/json"
-	"github.com/apolloconfig/agollo/v4/utils"
+	"github.com/pfthink/agollo/env/config"
+	jsonConfig "github.com/pfthink/agollo/env/config/json"
+	"github.com/pfthink/agollo/utils"
 	. "github.com/tevid/gohamcrest"
 )
 

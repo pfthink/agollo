@@ -24,7 +24,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/apolloconfig/agollo/v4/utils"
+	"github.com/pfthink/agollo/utils"
 )
 
 var (
@@ -41,13 +41,14 @@ type File interface {
 
 //AppConfig 配置文件
 type AppConfig struct {
-	AppID             string `json:"appId"`
-	Cluster           string `json:"cluster"`
-	NamespaceName     string `json:"namespaceName"`
-	IP                string `json:"ip"`
-	IsBackupConfig    bool   `default:"true" json:"isBackupConfig"`
-	BackupConfigPath  string `json:"backupConfigPath"`
-	Secret            string `json:"secret"`
+	AppID            string `json:"appId"`
+	Cluster          string `json:"cluster"`
+	NamespaceName    string `json:"namespaceName"`
+	IP               string `json:"ip"`
+	IsBackupConfig   bool   `default:"true" json:"isBackupConfig"`
+	BackupConfigPath string `json:"backupConfigPath"`
+	Secret           string `json:"secret"`
+
 	Label             string `json:"label"`
 	SyncServerTimeout int    `json:"syncServerTimeout"`
 	// MustStart 可用于控制第一次同步必须成功

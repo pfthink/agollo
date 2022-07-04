@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/env/config"
+	"github.com/pfthink/agollo/env/config"
 )
 
 // ip -> server

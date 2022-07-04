@@ -23,7 +23,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/apolloconfig/agollo/v4/env/config"
+	"github.com/pfthink/agollo/env/config"
 )
 
 const (

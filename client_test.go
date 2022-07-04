@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/agcache/memory"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	"github.com/apolloconfig/agollo/v4/env/server"
+	"github.com/pfthink/agollo/agcache/memory"
+	"github.com/pfthink/agollo/env/config"
+	"github.com/pfthink/agollo/env/server"
 
-	_ "github.com/apolloconfig/agollo/v4/env/file/json"
-	"github.com/apolloconfig/agollo/v4/extension"
-	"github.com/apolloconfig/agollo/v4/storage"
+	_ "github.com/pfthink/agollo/env/file/json"
+	"github.com/pfthink/agollo/extension"
+	"github.com/pfthink/agollo/storage"
 	. "github.com/tevid/gohamcrest"
 )
 

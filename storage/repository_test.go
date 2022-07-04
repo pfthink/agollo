@@ -22,19 +22,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/agcache/memory"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	jsonFile "github.com/apolloconfig/agollo/v4/env/file/json"
-	"github.com/apolloconfig/agollo/v4/extension"
-	"github.com/apolloconfig/agollo/v4/utils"
+	"github.com/pfthink/agollo/agcache/memory"
+	"github.com/pfthink/agollo/env/config"
+	jsonFile "github.com/pfthink/agollo/env/file/json"
+	"github.com/pfthink/agollo/extension"
+	"github.com/pfthink/agollo/utils"
 
-	_ "github.com/apolloconfig/agollo/v4/agcache/memory"
-	"github.com/apolloconfig/agollo/v4/env"
-	_ "github.com/apolloconfig/agollo/v4/env/file/json"
+	_ "github.com/pfthink/agollo/agcache/memory"
+	"github.com/pfthink/agollo/env"
+	_ "github.com/pfthink/agollo/env/file/json"
 	. "github.com/tevid/gohamcrest"
 
-	_ "github.com/apolloconfig/agollo/v4/utils/parse/normal"
-	_ "github.com/apolloconfig/agollo/v4/utils/parse/properties"
+	_ "github.com/pfthink/agollo/utils/parse/normal"
+	_ "github.com/pfthink/agollo/utils/parse/properties"
 )
 
 // init param

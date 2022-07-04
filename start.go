@@ -18,12 +18,12 @@
 package agollo
 
 import (
-	"github.com/apolloconfig/agollo/v4/agcache"
-	"github.com/apolloconfig/agollo/v4/cluster"
-	"github.com/apolloconfig/agollo/v4/component/log"
-	"github.com/apolloconfig/agollo/v4/env/file"
-	"github.com/apolloconfig/agollo/v4/extension"
-	"github.com/apolloconfig/agollo/v4/protocol/auth"
+	"github.com/pfthink/agollo/agcache"
+	"github.com/pfthink/agollo/cluster"
+	"github.com/pfthink/agollo/component/log"
+	"github.com/pfthink/agollo/env/file"
+	"github.com/pfthink/agollo/extension"
+	"github.com/pfthink/agollo/protocol/auth"
 )
 
 //SetSignature 设置自定义 http 授权控件

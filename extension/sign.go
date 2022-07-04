@@ -18,7 +18,7 @@
 package extension
 
 import (
-	"github.com/apolloconfig/agollo/v4/protocol/auth"
+	"github.com/pfthink/agollo/protocol/auth"
 )
 
 var authSign auth.HTTPAuth

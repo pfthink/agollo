@@ -20,7 +20,7 @@ package extension
 import (
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/constant"
+	"github.com/pfthink/agollo/constant"
 
 	. "github.com/tevid/gohamcrest"
 )

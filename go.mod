@@ -1,4 +1,4 @@
-module github.com/apolloconfig/agollo/v4
+module github.com/pfthink/agollo
 
 require (
 	github.com/spf13/viper v1.7.1

@@ -19,7 +19,7 @@ package yaml
 
 import (
 	"bytes"
-	"github.com/apolloconfig/agollo/v4/utils"
+	"github.com/pfthink/agollo/utils"
 	"github.com/spf13/viper"
 )
 

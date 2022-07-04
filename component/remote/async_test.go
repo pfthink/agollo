@@ -25,13 +25,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/cluster/roundrobin"
-	"github.com/apolloconfig/agollo/v4/env"
-	"github.com/apolloconfig/agollo/v4/env/config"
-	jsonFile "github.com/apolloconfig/agollo/v4/env/file/json"
-	"github.com/apolloconfig/agollo/v4/env/server"
-	"github.com/apolloconfig/agollo/v4/extension"
-	http2 "github.com/apolloconfig/agollo/v4/protocol/http"
+	"github.com/pfthink/agollo/cluster/roundrobin"
+	"github.com/pfthink/agollo/env"
+	"github.com/pfthink/agollo/env/config"
+	jsonFile "github.com/pfthink/agollo/env/file/json"
+	"github.com/pfthink/agollo/env/server"
+	"github.com/pfthink/agollo/extension"
+	http2 "github.com/pfthink/agollo/protocol/http"
 	. "github.com/tevid/gohamcrest"
 )
 

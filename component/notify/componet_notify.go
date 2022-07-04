@@ -20,10 +20,10 @@ package notify
 import (
 	"time"
 
-	"github.com/apolloconfig/agollo/v4/component/remote"
-	"github.com/apolloconfig/agollo/v4/storage"
+	"github.com/pfthink/agollo/component/remote"
+	"github.com/pfthink/agollo/storage"
 
-	"github.com/apolloconfig/agollo/v4/env/config"
+	"github.com/pfthink/agollo/env/config"
 )
 
 const (

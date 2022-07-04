@@ -20,7 +20,7 @@ package memory
 import (
 	"testing"
 
-	"github.com/apolloconfig/agollo/v4/agcache"
+	"github.com/pfthink/agollo/agcache"
 	. "github.com/tevid/gohamcrest"
 )
 
