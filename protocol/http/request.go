@@ -178,16 +178,16 @@ func Request(requestURL string, connectionConfig *env.ConnectConfig, callBack *C
 			}
 			return nil, nil
 		default:
-			log.Errorf("Connect Apollo Server Fail,url:%s,StatusCode:%d", requestURL, res.StatusCode)
+			//log.Errorf("Connect Apollo Server Fail,url:%s,StatusCode:%d", requestURL, res.StatusCode)
 			// if error then sleep
 			time.Sleep(onErrorRetryInterval)
 			continue
 		}
 	}
 
-	log.Error("Over Max Retry Still Error,Error:", err)
 	if retry > retries {
-		err = errors.New("over Max Retry Still Error")
+		log.Warn("Over Max Retry Still Error,Error:", err)
+		//err = errors.New("over Max Retry Still Error")
 	}
 	return nil, err
 }
